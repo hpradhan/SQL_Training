@@ -1,10 +1,12 @@
-CREATE TABLE IF NOT EXISTS `Volunters` (
+-- example data 
+-- table with informatioin on volunteers
+CREATE TABLE IF NOT EXISTS `Volunteers` (
   `van_id` int(6),
   `name` varchar(10) ,
   `turf_id` varchar(200) ,
   PRIMARY KEY (`van_id`,`turf_id`)
 ) ;
-INSERT INTO `Volunters` (`van_id`, `name`, `turf_id`) VALUES
+INSERT INTO `Volunteers` (`van_id`, `name`, `turf_id`) VALUES
   ('1', 'Jill', '01A'),
   ('2', 'Bob', '01B'),
   ('3', 'Hishi', '01C'),
@@ -54,4 +56,3 @@ INSERT INTO `Shifts` (`shift_id`,`van_id`, `shift_status`) VALUES
   ( '7','1', 'Completed'),
   ( '8','2', 'Scheduled' ),
   ( '9','4', 'Scheduled');
-
