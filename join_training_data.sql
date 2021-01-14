@@ -1,5 +1,5 @@
 -- example data 
--- table with informatioin on volunteers
+-- table with information on volunteers
 CREATE TABLE IF NOT EXISTS `Volunteers` (
   `van_id` int(6),
   `name` varchar(10) ,
@@ -26,7 +26,7 @@ INSERT INTO `Organizers` (`turf_id`, `organzer_name`, `email`,`region_id`) VALUE
   ('02C', 'Shrija','Shrija@gmail.com','2'),
   ('03D', 'Abi','Abi@gmail.com','3');
 
--- table about regional organizing directors 
+-- table with information on regional organizing directors 
 create table IF NOT EXISTS `Regionals` (
   `ROD_name` varchar(10) ,
   `email` varchar(200) ,
@@ -39,7 +39,7 @@ INSERT INTO `Regionals` (`ROD_name`, `email`,`region_id`) VALUES
   ( 'Sage','Sage@gmail.com','3'),
   ( 'Mike','Mike@gmail.com','4');
 
--- table with aggergated shift tables 
+-- table with aggergated shift information 
 create table IF NOT EXISTS `Shifts` (
   `shift_id` varchar(10) ,
   `van_id` varchar(10) ,
