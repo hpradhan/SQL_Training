@@ -41,8 +41,8 @@ INSERT INTO `Regionals` (`ROD_name`, `email`,`region_id`) VALUES
 
 -- table with aggergated shift information 
 create table IF NOT EXISTS `Shifts` (
-  `shift_id` varchar(10) ,
-  `van_id` varchar(10) ,
+  `shift_id` int(6) ,
+  `van_id` int(6) ,
   `shift_status` varchar(200) ,
   PRIMARY KEY (`shift_id`)
 ) ;
