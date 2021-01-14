@@ -1,1 +1,1 @@
-# SQL Join Traininig inifo
+# SQL Join Training info
