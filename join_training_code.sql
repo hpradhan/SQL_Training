@@ -1,5 +1,17 @@
--- examples to use in SQL fiddle
+-- sample each table
+select *
+from Volunteers;
 
+select *
+from Organizers;
+
+select *
+from Regionals;
+
+select *
+from Shifts;
+
+-- examples to use in SQL fiddle
 -- inner join example 
 -- Goal: to see only the volunteers who have shift information
 select * 
