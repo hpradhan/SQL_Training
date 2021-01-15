@@ -11,6 +11,11 @@ from Regionals;
 select *
 from Shifts;
 
+-- 1. to see only the volunteers who have shift information
+-- 2. To see which volunteers live in what organizer's turf
+-- 3. to see which organizer is working with which regional 
+-- 3a. To see that right and left joins work similarly but are based on order
+
 -- examples to use in SQL fiddle
 -- inner join example 
 -- Goal: to see only the volunteers who have shift information
