@@ -30,7 +30,9 @@ on volunteers.turf_id=Organizers.turf_id;
 -- Goal: To see that right and left joins work similarly but are based on order
 select *
 from Organizers 
-left join volunteers using(turf_id);
+left join volunteers 
+on volunteers.turf_id=Organizers.turf_id;
+
 
 -- left join example
 -- goal: to see which organizer is working with which regional
